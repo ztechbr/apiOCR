@@ -18,7 +18,7 @@ Expense bill OCR API built with Flask. Send an image (e.g., a photo taken on you
 docker compose up --build
 ```
 
-The API will be available at `http://localhost:5000`.
+The API will be available at `http://localhost:5250`.
 
 ### API
 
@@ -30,7 +30,7 @@ The API will be available at `http://localhost:5000`.
 
 **Sample request using `curl`:**
 ```bash
-curl -X POST http://localhost:5000/api/expenses/parse \
+curl -X POST http://localhost:5250/api/expenses/parse \
   -F "image=@/path/to/your/receipt.jpg"
 ```
 
