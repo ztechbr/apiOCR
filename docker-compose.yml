@@ -5,7 +5,7 @@ services:
     image: apioqr:latest
     container_name: apiocr
     ports:
-      - "5000:5000"
+      - "5250:5250"
     environment:
       - FLASK_APP=app.py
     volumes:
