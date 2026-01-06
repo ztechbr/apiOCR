@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  api:
+    build: .
+    image: apioqr:latest
+    container_name: apiocr
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_APP=app.py
+    volumes:
+      - .:/app:ro
