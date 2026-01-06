@@ -59,5 +59,5 @@ curl -X POST http://localhost:5250/api/expenses/parse \
    ```
 3. Run the API:
    ```bash
-   FLASK_APP=app.py flask run --host=0.0.0.0 --port=5000
+   FLASK_APP=app.py flask run --host=0.0.0.0 --port=5250
    ```
